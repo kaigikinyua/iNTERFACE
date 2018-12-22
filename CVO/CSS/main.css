@@ -2,9 +2,9 @@ body{
 	background: white;
 }
 div.barner{
-	background: lightgray;
-	width:90%;
-	border-radius: 1%;
+	background: #3399FF;
+	width:95%;
+	border-radius: 2%;
 	padding: 5px;
 	word-spacing: -40px;
 	animation-name: barner;
@@ -14,13 +14,14 @@ div.barner{
 }
 h1.t1{
 	font-family: sans-serif;
-	color:blue;
+	text-shadow: black;
+	color:white;
 	animation-name: textOne;
 	animation-delay: 1s;
 	animation-duration: 4s;
 }
 h3.t2{
-	color:lightgray;
+	color:#3399FF;
 	animation-name:textTwo;
 	animation-delay: 1s;
 	animation-duration: 5.5s;
@@ -43,13 +44,13 @@ h3.t2{
 }
 @keyframes textTwo{
 	20%{
-		color:gray;
+		color:#3399FF;
 	}40%{
-		color:black;
+		color:#4169E1;
 	}70%{
 		color:white;
 	}90%{
-		color:lightgray;
+		color:black;
 	}
 }
 div.barner:hover{
@@ -58,7 +59,7 @@ div.barner:hover{
 div.tail{
 	margin: 5;
 	padding:5;
-	background: gray;
+	background: #3399FF;
 	position: fixed;
 	width:100%;
 	height:10%;
@@ -75,7 +76,7 @@ li{
 	background: white;
 }
 li.active{
-	background: gray;
+	background: #FF4444;
 }
 li.active a{
 	color:white;
@@ -88,8 +89,46 @@ li:hover{
 	transform: translateY(-5px);
 	transform: ease-in-out;
 	transition:1s;
-	background:black;
+	background:red;
 }
 li a:hover{
 	color:white;
+}
+div.maincontent{
+	background:#3399FF;
+	width:95%;
+	height: 60%;
+	margin:10px;
+	padding: 5px;
+}
+div.inner{
+	height:45%;
+	width:97%;
+	background: whitesmoke;
+	opacity:0.8;
+}
+div.inner:hover{
+	opacity:1.0;
+	transform: translateY(-10px);
+	transform: ease-in-out;
+	transition: 1s;
+}
+div.right{
+	width: 40%;
+	height:90%;
+	background: lightgreen;
+	align-self: flex-end;
+}
+div.left{
+	margin: 0px;
+	width: 40%;
+	height: 90%;
+	background: lightslategray;
+	right: 10px;
+}
+ul.innerL{
+	list-style-type: none;
+}
+ul.innerL li{
+	display: inline;
 }
