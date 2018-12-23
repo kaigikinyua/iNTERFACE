@@ -3,16 +3,18 @@
         <title>Sign Up</title>
         <link rel="stylesheet" href="CSS/main.css"/>
         <link rel="stylesheet" href="CSS/dynamics.css"/>
+        <script src="JS/validation.js"></script>
+        <meta charset="UTF-8"/>
     </head>
     <body>
         <div class="myform">
             <center>
-            <form class="only">
+            <form method="POST" name="only" class="only" onsubmit="return empty()">
                 <input type="text" name="uname" placeholder="username"/><br/>
-                <input type="Email" name="uname" placeholder="Email"/><br/>
-                <input type="password" name="uname" placeholder="Password"/><br/>
-                <input type="password" name="uname" placeholder="confirm password"/><br/>
-                <center><button id='signup'>Submit</button></center>     
+                <input type="text" name="email" placeholder="Email"/><br/>
+                <input type="password" name="pass" placeholder="Password"/><br/>
+                <input type="password" name="passc" placeholder="confirm password"/><br/>
+                <center><input class"btn" type="submit" id='signup' value="Submit"></center>     
             </form>
             </center>
         </div>

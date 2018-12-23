@@ -1,3 +1,6 @@
+body{
+    background: gray;
+}
 form.only{
     top:30%;
     bottom: 30%;
@@ -15,10 +18,13 @@ form.only input{
     margin: 10px;
     box-shadow: none;
 }
+input.btn{
+    background-color: crimson;
+}
 form.only input:hover{
     background: whitesmoke;
     border-width: 3px;
     border-color: blue;
-    color:red;
+    color:blue;
     transition: 1s;
 }

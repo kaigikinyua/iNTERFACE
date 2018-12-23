@@ -1,0 +1,61 @@
+body{
+    background: gray;
+}
+div.navbar{
+    height:60px;
+    width:100%;
+    position:fixed;
+    background: #3399FF;
+    border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+ul.nav{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    text-decoration: none;
+    padding:5;
+    background: lightskyblue;
+}
+li a{
+    text-decoration: none;
+    color:white;
+}
+li.active{
+    background-color: blue;
+    color:white;
+}
+li:hover{
+    background: lightsalmon;
+    transition: 1s;
+    transform:translateY(-5px);
+    transform: ease-in-out;
+}
+div.chatpage{
+    border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: lightgrey;
+    width:40%;
+    height: 97%;
+    margin-left: 26%;
+    position: fixed;
+}
+div.contacts{
+    border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #3399FF;
+    height:90%;
+    width:25%;
+    position: fixed;
+}
+div.content{
+    display: inline;
+    position: static;
+}
