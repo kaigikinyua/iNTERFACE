@@ -2,7 +2,6 @@ body{
     background: gray;
 }
 div.navbar{
-    height:60px;
     width:100%;
     position:fixed;
     background: #3399FF;
@@ -40,10 +39,11 @@ div.chatpage{
 	border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background: lightgrey;
-    width:40%;
+    width:70%;
     height: 97%;
     margin-left: 26%;
     position: fixed;
+    padding: 5;
 }
 div.contacts{
     border-bottom-left-radius: 10px;
@@ -58,4 +58,35 @@ div.contacts{
 div.content{
     display: inline;
     position: static;
+}
+div.keyboard{
+    bottom:0;
+    width:70%;
+    position:fixed;
+    border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+input.usrmsg{
+    border:0;
+    border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 40%;
+    tranform:scale(1.2);
+}
+input.sendbtn{
+    border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border:0;
+    background: lightblue;
+    transform: scale(1.2);
+}
+input.usrmsg:hover{
+    width:45%;
+    transition: 1s;
 }
