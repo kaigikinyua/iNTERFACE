@@ -25,3 +25,12 @@ function empty(){
         return false;
     }
 }
+function updateChat(){
+    var msg=document.forms["chat"]["message"].value;
+    if(msg=="" || msg==null){
+        return false;
+    }
+    else{
+        document.getElementById("msg").innerHTML="<p class='btn'>";
+    }
+}

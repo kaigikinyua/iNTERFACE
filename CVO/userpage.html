@@ -16,17 +16,49 @@
         </div>
         <div style="width:100%;height:70px;"></div>
         <div class="content">
-            <div class="contacts"></div>
+            <div class="contacts">
+                <span class="title">
+                    username
+                </span>
+                <div>
+                    <script>
+                        var fr=['profile','status','profile','status'];
+                        for (var i=0;i<=3;i++){
+                            document.write("<div class='settings'>"+fr[i]+"</div>");
+                        }
+                    </script>
+                </div>
+            </div>
             <div class="chatpage">
+                    <!--on clicking the friends button it should change the progile pick and name-->
+                    <span class="title">
+                            friend name
+                    </span>
                 <!--by default show what has happend when the user was offline-->
                 <!--should be updated frequently but not the whole page-->
                 <div class="keyboard">
-                    <form>
-                        <center>
+                    <!--add the text -->
+                    <div class="msgbox">
+                        <div class="user_side">
+                            <span class="u_msg">
+                                Hello 
+                            </span>
+                        </div>
+                        <div class="friend_side">
+                            <span class="f_msg">
+                                I  am 
+                            </span>
+                        </div>
+                        <form>
                             <input class="usrmsg" type="text" placeholder="Type ..."/>
                             <input class="sendbtn" type="button" value="send"/>
-                        </center>
-                    </form>
+                        </form>
+                    </div>
+                </div>
+                <div class="trending">
+                    <span class="title">
+                        Friends
+                    </span>
                 </div>
             </div>
         </div>
