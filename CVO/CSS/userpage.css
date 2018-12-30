@@ -27,7 +27,7 @@ li a{
     color:black;
 }
 li.active{
-    background-color: blue;
+    background-color: red;
     color:white;
 }
 li:hover{
@@ -144,4 +144,14 @@ span.title{
     padding:7px;
     position: fixed;
     margin-top: 0%;
+}
+div.small{
+    padding:5px;
+}
+img.profile{
+    border-radius: 50%;
+}
+img.profile:hover{
+    transform: rotate(360deg);
+    transition: 1s;
 }
