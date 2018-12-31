@@ -42,8 +42,12 @@
                     <!--add the text -->
                     <div class="msgbox">
                         <div class="user_side">
-                            <span class="u_msg">
-                                Hello 
+                            <span class="u_msg" id="u_msg">
+                                <script>
+                                	function echo_ms(ms){
+                                		document.getElementById("u_msg").innerText=ms;
+                                	}
+                                </script>
                             </span>
                         </div>
                         <div class="friend_side">
@@ -52,9 +56,15 @@
                             </span>
                         </div>
                         <form>
-                            <input class="usrmsg" type="text" placeholder="Type ..."/>
-                            <input class="sendbtn" type="button" value="send"/>
+                            <input class="usrmsg" id="send" type="text" placeholder="Type ..."/>
+                            <input class="sendbtn" type="button" value="send" onclick="sendMsg()"/>
                         </form>
+                        <script>
+                        	function sendMsg(){
+                        		var ms=document.getElementById("send").value;
+                        		echo_ms(ms);
+                        	}
+                        </script>
                     </div>
                 </div>
                 <div class="trending">
