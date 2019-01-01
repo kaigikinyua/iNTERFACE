@@ -64,12 +64,12 @@ div.content{
 }
 div.keyboard{
     bottom:0;
-    width:70%;
+    width:30%;
     position:fixed;
     border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
 input.usrmsg{
     border:0;
@@ -77,8 +77,8 @@ input.usrmsg{
 	border-bottom-right-radius: 10px;
 	border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    width: 40%;
-    tranform:scale(1.2);
+    width: 30%;
+    tranform:scale(1.002);
 }
 input.sendbtn{
     border-bottom-left-radius: 10px;
@@ -90,40 +90,43 @@ input.sendbtn{
     transform: scale(1.2);
 }
 input.usrmsg:hover{
-    width:45%;
+    width:80%;
     transition: 1s;
 }
+table.messages{
+    width:100%;
+}
 div.user_side{
-    margin-right: 80%;
+    max-width: 60%;;
+    float:right;
+    color:white;
+    padding:5px;
     text-align: right;
-    width:50%;
-    padding: 10px;
-}
-div.friend_side{
-    text-align:left; 
-    width:50%;
-    padding-bottom: 10px;
-}
-span.u_msg{
-    padding:7px;
+    background:#3399FF;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 0px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background:rgb(62, 161, 223);
-    color:white;
 }
-span.f_msg{
-    padding:7px;
+div.divide{
+    width:100%;
+}
+div.friend_side{
+    color:white;
+    max-width: 60%;
+    float:left;
+    padding:5px;
+    text-align: left;
+    background:#3399FF;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background:rgb(28, 165, 250);
-    color:white;
 }
 div.msgbox{
-    padding-bottom: 10%px;
+    padding-bottom:15px;
+    margin-bottom:20px;
+    height:70%;
 }
 div.trending{
     width:45%;

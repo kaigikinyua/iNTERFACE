@@ -17,18 +17,11 @@
         <div style="width:100%;height:70px;"></div>
         <div class="content">
             <div class="contacts">
-                <div class="small">
-                	<img class="profile" src="Images/octocat.png" height="100px" width="100px"/>
-                	<div class="small-2">
-                		Username<br/>
-                		<i>...status...</i><br/>
-                		<button>Settings</button>
-                		<button>Trending</button>
-                		<button>Help</button>
-                	</div>
-                	<div class="small-2">
-                		<h3 style="color:black">Notifications</h3>
-                	</div>
+                <span class="title">
+                    username
+                </span>
+                <div>
+                    
                 </div>
             </div>
             <div class="chatpage">
@@ -40,37 +33,15 @@
                 <!--should be updated frequently but not the whole page-->
                 <div class="keyboard">
                     <!--add the text -->
-                    <div class="msgbox">
-                        <div class="user_side">
-                            <span class="u_msg" id="u_msg">
-                                <script>
-                                	function echo_ms(ms){
-                                		document.getElementById("u_msg").innerText=ms;
-                                	}
-                                </script>
-                            </span>
-                        </div>
-                        <div class="friend_side">
-                            <span class="f_msg">
-                                I  am 
-                            </span>
-                        </div>
-                        <form>
-                            <input class="usrmsg" id="send" type="text" placeholder="Type ..."/>
-                            <input class="sendbtn" type="button" value="send" onclick="sendMsg()"/>
-                        </form>
-                        <script>
-                        	function sendMsg(){
-                        		var ms=document.getElementById("send").value;
-                        		echo_ms(ms);
-                        	}
-                        </script>
-                    </div>
-                </div>
-                <div class="trending">
-                    <span class="title">
-                        Friends
-                    </span>
+                    <table class="messages">
+                        <tr><td><div class="user_side">skfjskldjf</div></td></tr>
+                        <tr><td><div class="friend_side">fksjdklfjsk jksdhfkjshdfkjshdkfjhskdjfhksjdf</div></td></tr>
+                        <tr><td><div class="user_side">sdfksljdf</div></td></tr>
+                    </table>
+                    <form class="messageBox">
+                        <input class="usrmsg" type="text" placeholder="Type ..."/>
+                        <input class="sendbtn" type="button" value="send"/>
+                    </form>
                 </div>
             </div>
         </div>
