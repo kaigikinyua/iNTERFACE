@@ -17,12 +17,20 @@
         <div style="width:100%;height:70px;"></div>
         <div class="content">
             <div class="contacts">
-                <span class="title">
+                <div class="profile">
                     username
-                </span>
-                <div>
-                    
                 </div>
+                <!--backend read from the database which notifications that have not been read and display them in terms of the latest-->
+                <!--onclick button shuld change the tables="messages" to the clicked notification-->
+                <center>
+                <div class="notification">
+                    James tried to call you
+                    <!--add time of the occurence-->
+                </div>
+                <div class="notification">
+                    Emmily messaged you
+                </div>
+                </center>
             </div>
             <div class="chatpage">
                     <!--on clicking the friends button it should change the progile pick and name-->
@@ -33,10 +41,11 @@
                 <!--should be updated frequently but not the whole page-->
                 <div class="keyboard">
                     <!--add the text -->
-                    <table class="messages">
-                        <tr><td><div class="user_side">skfjskldjf</div></td></tr>
-                        <tr><td><div class="friend_side">fksjdklfjsk jksdhfkjshdfkjshdkfjhskdjfhksjdf</div></td></tr>
-                        <tr><td><div class="user_side">sdfksljdf</div></td></tr>
+                    <table class="messages" id="messages">
+            <!--display messages of the clicked notification from the earliest to the latest-->
+                        <tr><td><div class="user_side">Hello</div></td></tr>
+                        <tr><td><div class="friend_side">Hae</div></td></tr>
+                        <tr><td><div class="user_side">Are we meeting up this weekend or what?</div></td></tr>
                     </table>
                     <form class="messageBox">
                         <input class="usrmsg" type="text" placeholder="Type ..."/>

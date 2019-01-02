@@ -53,7 +53,7 @@ div.contacts{
 	border-bottom-right-radius: 10px;
 	border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background: #3399FF;
+    background: lightgray;
     height:90%;
     width:25%;
     position: fixed;
@@ -101,7 +101,6 @@ div.user_side{
     float:right;
     color:white;
     padding:5px;
-    text-align: right;
     background:#3399FF;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 0px;
@@ -116,7 +115,6 @@ div.friend_side{
     max-width: 60%;
     float:left;
     padding:5px;
-    text-align: left;
     background:#3399FF;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 10px;
@@ -150,6 +148,29 @@ span.title{
 }
 div.small{
     padding:5px;
+    
+}
+div.notification{
+    width:90%;
+    align-self: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding:7px;
+    background: #3399FF;
+    color:white;
+    overflow: hidden;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+div.notification:hover{
+    color:black;
+    background: lightblue;
+    transform: translateX(10px);
+    transform: scale(1.05);
+    transition: 0.8s;
+    transform: ease-in-out;
 }
 img.profile{
     border-radius: 50%;
@@ -157,4 +178,14 @@ img.profile{
 img.profile:hover{
     transform: rotate(360deg);
     transition: 1s;
+}
+div.profile{
+    background: #3399FF;
+    width:90%;
+    height:50px;
+    padding:5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
