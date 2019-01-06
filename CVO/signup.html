@@ -9,12 +9,12 @@
     <body>
         <div class="myform">
             <center>
-            <form method="POST" name="only" class="only" onsubmit="return empty()">
+            <form method="POST" name="only" class="only" onsubmit="return empty()" action='PHP/signup.php'>
                 <input type="text" name="uname" placeholder="username"/><br/>
                 <input type="text" name="email" placeholder="Email"/><br/>
                 <input type="password" name="pass" placeholder="Password"/><br/>
                 <input type="password" name="passc" placeholder="confirm password"/><br/>
-                <center><input class"btn" type="submit" id='signup' value="Submit"></center>     
+                <center><input class"btn" type="submit" name='signup' id='signup' value="Submit"></center>     
             </form>
             </center>
         </div>
