@@ -4,12 +4,14 @@
             Login
         </title>
         <link rel="stylesheet" href="CSS/dynamics.css"/>
+        <script src="JS/validation.js"></script>
+        <meta charset="UTF-8"/>
     </head>
     <body>
         <div class="myform">
             <center>
-                <form method="POST" class="only" action='PHP/login.php'>
-                    <input type="text" name="uname" placeholder="Username or Email"/>
+                <form method="POST" class="only" id="only" onsubmit="login_user()" action='PHP/login.php'>
+                    <input type="text" name="uname" placeholder="Email"/>
                     <input type="password" name="pass" placeholder="Password"/>
                     <input type="submit" value="Login" name='login'/>
                 </form>

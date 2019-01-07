@@ -25,6 +25,21 @@ function empty(){
         return false;
     }
 }
+function login_user(){
+    var uname=document.forms["only"]["uname"].value;
+    var pass=document.forms["only"]["pass"].value;
+    if(uname==null || pass==null || uname==""|| pass==""){
+        if(uname==null || uname==""){
+            alert("Please Fill in your Email");
+        }else if(pass==null || pass==""){
+            alert("Please enter your password");
+        }
+        else{
+            alert(":(");
+        }
+        return false;
+    }
+}
 function updateChat(){
     var msg=document.forms["chat"]["message"].value;
     if(msg=="" || msg==null){
