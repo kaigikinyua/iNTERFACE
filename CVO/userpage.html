@@ -5,6 +5,7 @@
         </title>
         <link rel="stylesheet" href="CSS/userpage.css"/>
         <script src="JS/dynamic.js"></script>
+        <meta charset="UTF-8"/>
     </head>
     <body>
         <div class="navbar">
@@ -21,6 +22,11 @@
                 <center>
                 <div class="profile">
                     username
+                    <button id="addP" onclick="changePic()">profile</button>
+                    <form class='profile' id='profileF' method='POST' action='PHP/upload.php' enctype="multipart/form-data" onsubmit="hide('profileF')">
+                        <input type='file' name='pp'/>
+                        <input type='submit' name='submit_profile' value='Upload'/>
+                    </form>
                 </div>
                 </center>
                 <!--backend read from the database which notifications that have not been read and display them in terms of the latest-->
