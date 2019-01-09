@@ -16,3 +16,10 @@ function sendMessage(){
     var parent=document.getElementById("chattable");
     parent.appendChild(msg);
 }
+function changePic(){
+    document.getElementById('profileF').style.visibility='visible';
+    document.getElementById('addP').style.visibility='hidden';
+}
+function hide(name){
+    document.getElementById(name).style.visibility='hidden';
+}
