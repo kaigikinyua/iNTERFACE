@@ -229,3 +229,6 @@ table.chat{
     border:0px;
     margin-right: 0px;
 }
+form.profile{
+    visibility: hidden;
+}

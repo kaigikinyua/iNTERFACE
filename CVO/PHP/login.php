@@ -6,7 +6,7 @@
             if($con){
                 $login="SELECT * FROM cvo_users where email='$name' and password='$pass'";
                 $r=mysqli_query($con,$login);
-                ##<!!VALIDATE EMAIL >
+                ##<!!VALIDATE EMAIL > k
                 if(mysqli_num_rows($r)==1){
                     header("location:../userpage.html");
                 }
