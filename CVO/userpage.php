@@ -1,6 +1,10 @@
 <html>
     <head>
-        <?php require("PHP/crsf.php");?>
+        <?php
+        if(empty($_COOKIE['email_cookie'])){
+            header("location:login.html");
+        }
+        ?>
         <title>
             userpage
         </title>
@@ -22,7 +26,13 @@
             <div class="contacts">
                 <center>
                 <div class="profile">
-                    username
+                    <?php
+                        $con=mysqli_connect("localhost","root","root","CVO");
+                        $user=$_COOKIE['email_cookie']
+                        $e="SELECT username from cvo_users where email='$user'";
+                        $r=mysqli_query($con,$e);
+                        echo $r;
+                    ?>
                     <button id="addP" onclick="changePic()">profile</button>
                     <form class='profile' id='profileF' method='POST' action='PHP/upload.php' enctype="multipart/form-data" onsubmit="hide('profileF')">
                         <input type='file' name='pp'/>

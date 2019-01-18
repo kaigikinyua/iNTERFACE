@@ -8,7 +8,11 @@
                 $r=mysqli_query($con,$login);
                 ##<!!VALIDATE EMAIL > k
                 if(mysqli_num_rows($r)==1){
-                    header("location:../userpage.html");
+                    $user_email=$name;
+                    $cookie_name="email_cookie";
+                    setcookie($cookie_name,$user_email,time()+(86400*2),"/");
+                    echo $_COOKIE['email_cookie'];
+                    header("location:../userpage.php");
                 }
                 else{
                     echo("wrong credentials");
