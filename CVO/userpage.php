@@ -28,10 +28,12 @@
                 <div class="profile">
                     <?php
                         $con=mysqli_connect("localhost","root","root","CVO");
-                        $user=$_COOKIE['email_cookie']
-                        $e="SELECT username from cvo_users where email='$user'";
+                        $user=$_COOKIE['email_cookie'];
+                        $e="SELECT profile from cvo_users where email='$user'";
                         $r=mysqli_query($con,$e);
-                        echo $r;
+                        $profilePath=mysqli_fetch_assoc($r);
+                        #echo $profilePath['profile'];
+                        echo "<img style='border-radius:50%;' src='USER/".$profilePath['profile']."' height='50px' width='50px'>";
                     ?>
                     <button id="addP" onclick="changePic()">profile</button>
                     <form class='profile' id='profileF' method='POST' action='PHP/upload.php' enctype="multipart/form-data" onsubmit="hide('profileF')">
