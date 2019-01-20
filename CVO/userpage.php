@@ -33,9 +33,9 @@
                         $r=mysqli_query($con,$e);
                         $profilePath=mysqli_fetch_assoc($r);
                         #echo $profilePath['profile'];
-                        echo "<img style='border-radius:50%;' src='USER/".$profilePath['profile']."' height='50px' width='50px'>";
+                        echo "<img style='border-radius:50%;' src='USER/".$profilePath['profile']."' height='90px' width='90px'></br>";
                     ?>
-                    <button id="addP" onclick="changePic()">profile</button>
+                    <button id="addP" onclick="changePic()"><?php echo $user?></button>
                     <form class='profile' id='profileF' method='POST' action='PHP/upload.php' enctype="multipart/form-data" onsubmit="hide('profileF')">
                         <input type='file' name='pp'/>
                         <input type='submit' name='submit_profile' value='Upload'/>
@@ -53,6 +53,10 @@
                     Emmily messaged you
                 </div>
                 </center>
+                <div onclick="test()">
+                    ClickMe
+                    <div id='test' class="chatpage" style="visibility:hidden;"></div>
+                </div>
             </div>
             <div class="trending">
                 <center>
