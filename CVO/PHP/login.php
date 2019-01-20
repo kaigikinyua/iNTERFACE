@@ -10,7 +10,7 @@
                 if(mysqli_num_rows($r)==1){
                     $user_email=$name;
                     $cookie_name="email_cookie";
-                    setcookie($cookie_name,$user_email,time()+(86400*2),"/");
+                    setcookie($cookie_name,$user_email,time()+(86400),"/");
                     echo $_COOKIE['email_cookie'];
                     header("location:../userpage.php");
                 }
