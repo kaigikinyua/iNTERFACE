@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>
+            Login
+        </title>
+        <link rel="stylesheet" href="CSS/dynamics.css"/>
+        <script src="JS/validation.js"></script>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <div class="myform" style="padding-top:15%;">
+            <center>
+                <form method="POST" class="only" id="only" onsubmit="login_user()" action='PHP/login.php'>
+                    <input type="text" name="uname" placeholder="Email"/>
+                    <input type="password" name="pass" placeholder="Password"/>
+                    <input type="submit" value="Login" name='login'/>
+                </form>
+            </center>
+        </div>
+    </body>
+</html>

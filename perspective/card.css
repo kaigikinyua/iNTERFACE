@@ -1,0 +1,81 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.card{
+	height:400px;
+	width:350px;
+	overflow: hidden;
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+}
+.front,.back{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	backface-visibility: hidden;
+	transition:transform .3s linear;
+}
+img{
+	height: 100%;
+	width: 100%;
+}
+.front{
+	transform: perspective(300px) rotateY(0deg);
+}
+.back{
+	transform: perspective(300px) rotateY(180deg);
+}
+.card:hover > .front{
+	transform: perspective(300px) rotateY(-180deg);
+}
+.card:hover > .back{
+	transform: perspective(300px) rotateY(0deg);	
+}
+
+.cube{
+	position: absolute;
+	left:50%;
+	top:70%;
+	transform:translateX(-50%);
+	height:500px;
+	width:500px;
+}
+.p1,.p2,.p3,.p4{
+	position: absolute;
+	height: 100%;
+	width:100%;
+	backface-visibility: hidden;
+}
+.p1{
+	perspective-origin: left;
+	animation:cube 1s linear infinite;
+	animation-delay: 0s;
+}
+.p2{
+	animation:cube 1s linear infinite;
+	animation-delay: 1s;
+}
+.p3{
+	animation:cube 1s linear infinite;
+	animation-delay: 2s;
+}
+.p4{
+	animation:cube 1s linear infinite;
+	animation-delay: 3s;
+}
+img.c{
+	height:100%;
+	width:100%;
+}
+@keyframes {
+	0%{
+		transform: perspective(600px) rotateX(0deg);
+		perspective-origin: left;
+	}
+	100%{
+		transform: perspective(600px) rotateX(180deg);
+	}
+}

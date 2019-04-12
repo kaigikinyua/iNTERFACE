@@ -1,0 +1,7 @@
+1.upload link to the profile to the database
+2a.adding messages and notifications
+2b.add the recent messages and hide the already read ones(should be done with the help of links -php to update the messages to read from unread state)
+3.add cash like to media and all texts /comments to the right border
+4.add cash-pin, money bag, cash cow,  
+5.add data analysis tools - popular feeds etc.
+6.calculate the minimum operational resources
