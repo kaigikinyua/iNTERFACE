@@ -1,0 +1,31 @@
+div.hamburger{
+	width:40px;
+	height:30px;
+	padding: 0px;
+	margin:0px;
+}
+div.close{
+	position: relative;
+	left:80%;
+	transform: rotate(-30deg);
+}
+div.close:hover :nth-child(1){
+	transition: 0.8s;
+	transform: rotate(-45deg) translateY(7.5px) scale(0.8);
+}
+div.close:hover :nth-child(2){
+	transition: 0.3s;
+	display: none;
+}
+div.close:hover :nth-child(3){
+	transition: 0.8s;
+	transform: rotate(45deg) translateY(-7.5px) scale(0.8);
+}
+div.line{
+	position: relative;
+	height:5px;
+	margin-bottom: 5px;
+	width:100%;
+	background: white;
+	border-radius: 5px;
+}
