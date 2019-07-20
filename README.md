@@ -7,3 +7,4 @@ My web ui collections
 ---- animations
 ----hide elements
 ----some vuejs
+----slant nav bar
