@@ -1,0 +1,101 @@
+.scroll_light ::-webkit-scrollbar {
+  width: 5px;
+  background: rgba(10, 10, 10, 0.5);
+}
+
+.scroll_light ::-webkit-scrollbar-thumb {
+  width: 7px;
+  color: white;
+}
+
+.scroll_dark ::-webkit-scrollbar {
+  width: 5px;
+  background: rgba(10, 10, 10, 0.3);
+}
+
+.scroll_dark ::-webkit-scrollbar-thumb {
+  width: 7px;
+  color: darkgray;
+}
+
+.scroll_vertical {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.scroll_horizontal {
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.snap_scroll_parent_v {
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+
+.snap_scroll_child_v {
+  scroll-snap-align: center;
+}
+
+.snap_scroll_parent_h {
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+}
+
+.snap_scroll_child_h {
+  scroll-snap-align: start;
+}
+
+.smooth_scroll {
+  scroll-behavior: smooth;
+}
+
+.light {
+  background: white;
+}
+
+.middle {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.center_h {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.center_v {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+nav.topnav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  z-index: 10;
+  -webkit-box-shadow: 1px 1px 10px 10px rgba(10, 10, 10, 0.3);
+          box-shadow: 1px 1px 10px 10px rgba(10, 10, 10, 0.3);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+nav.sidenav {
+  position: fixed;
+  height: 100vh;
+  right: 0px;
+  top: 0px;
+  min-width: 300px;
+  max-width: 500px;
+}
+/*# sourceMappingURL=interface.css.map */
