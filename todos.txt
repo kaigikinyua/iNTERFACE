@@ -1,0 +1,9 @@
+1.Ajax Requests
+    -Get and Post Requests
+2.Image Library
+    -loading display animation
+3.Picture based background and elements
+    -Profile pictures.
+    -Avatars
+    -Template cards
+    -Scrollable cards
