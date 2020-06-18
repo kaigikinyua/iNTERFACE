@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>iNTERFACE</title>
 	<link rel="stylesheet" href="./css/interface.css">
+	<script defer type="module" src="./js/UI/Videos.js"></script>
 </head>
 <body>
 	<!--topnav-->
@@ -40,6 +41,17 @@
 			<h3 class="title">Containers</h3>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, accusamus illo ad hic et qui vel enim? Libero, nemo dicta, quisquam voluptates delectus sit deserunt laborum, voluptate nobis iste sunt!</p>
 		</div>
+	</section>
+
+	<section class="fullscreen" id="videos_parent">
+		<script type="module">
+			import {Video} from "./js/UI/Videos.js";
+			var videos=["bus.mp4","deadpool.mp4","todolist.mp4"];
+			videos.forEach(video=>{
+				var v=new Video({src:"./sampledata/videos/"+video,controls:true});
+				v.appendVideo("videos_parent")
+			})
+		</script>
 	</section>
 
 </body>
