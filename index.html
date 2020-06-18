@@ -50,6 +50,7 @@
 			videos.forEach(video=>{
 				var v=new Video({src:"./sampledata/videos/"+video,controls:true});
 				v.appendVideo("videos_parent")
+				v.videoDimensions({height:100,width:"auto"})
 			})
 		</script>
 	</section>

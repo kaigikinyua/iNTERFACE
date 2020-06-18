@@ -29,7 +29,16 @@ class Video{
             }
             videoTemplate.src=this.videoSrc
             videoTemplate.controls=this.videoControls
+            this.videoElement=videoTemplate
             parentTemplate.appendChild(videoTemplate)
+        }
+    }
+    videoDimensions({height,width}){
+        if(HtmlElements.nonNull(height) && HtmlElements.nonNull(width)){
+            this.videoElement.style.height=height
+            this.videoElement.style.width=width
+        }else{
+            this.showError("Video elements should be defined, non null and atleatst 1 char long\nyou declared were "+height+" "+width)
         }
     }
     showError(error_message){
