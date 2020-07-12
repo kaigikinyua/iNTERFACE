@@ -90,6 +90,14 @@ nav.topnav {
       grid-template-columns: 1fr 1fr;
 }
 
+nav.topnav ul.links {
+  list-style: none;
+}
+
+nav.topnav ul.links a, nav.topnav ul.links li {
+  display: inline-block;
+}
+
 nav.sidenav {
   position: fixed;
   height: 100vh;
@@ -97,5 +105,34 @@ nav.sidenav {
   top: 0px;
   min-width: 300px;
   max-width: 500px;
+  z-index: 100;
+  -webkit-box-shadow: 1px 1px 10px 10px rgba(10, 10, 10, 0.5);
+          box-shadow: 1px 1px 10px 10px rgba(10, 10, 10, 0.5);
+}
+
+nav.sidenav .barner {
+  background: gray;
+  padding: 20px;
+}
+
+nav.sidenav .links {
+  padding: 10px;
+  background: whitesmoke;
+}
+
+nav.sidenav ul.ver {
+  list-style: none;
+}
+
+nav.sidenav ul.ver a {
+  text-decoration: none;
+}
+
+nav.sidenav ul.ver li {
+  padding: 10px;
+}
+
+nav.sidenav button.cancel {
+  padding: 10px;
 }
 /*# sourceMappingURL=interface.css.map */

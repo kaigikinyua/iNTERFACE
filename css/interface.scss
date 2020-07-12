@@ -84,7 +84,13 @@
 				z-index: 10;
 				box-shadow: 1px 1px 10px 10px rgba(10,10,10,0.3);
 				display:grid;
-				grid-template-columns: 1fr 1fr;				
+				grid-template-columns: 1fr 1fr;
+				ul.links{
+					list-style: none;
+					a,li{
+						display: inline-block;
+					}
+				}				
 			}
             //3 segments<icon title/></links>
             //4 segments<icon title><links sidenav>
@@ -97,6 +103,28 @@
 				right:0px;top:0px;
 				min-width: 300px;
 				max-width: 500px;
+				z-index:100;
+				box-shadow: 1px 1px 10px 10px rgba(10,10,10,0.5);
+				.barner{
+					background:gray;
+					padding:20px;
+				}
+				.links{
+					padding:10px;
+					background:whitesmoke;
+				}
+				ul.ver{
+					list-style: none;
+					a{
+						text-decoration: none;
+					}
+					li{
+						padding:10px;
+					}
+				}
+				button.cancel{
+					padding:10px;
+				}
 			}
 			
             //<icon title cancel/></links>
