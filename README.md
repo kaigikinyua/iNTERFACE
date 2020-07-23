@@ -6,3 +6,8 @@
 * Image loading animations
 * Page loading animations
 * Navbar and sidenav reveal and animations
+
+# Elements
+* Cards
+* Landing pages
+* Slideshow 
