@@ -11,3 +11,4 @@
 * Cards
 * Landing pages
 * Slideshow 
+* Video controls etc
