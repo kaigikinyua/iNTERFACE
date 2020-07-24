@@ -12,3 +12,4 @@
 * Landing pages
 * Slideshow 
 * Video controls etc
+* Column layout
