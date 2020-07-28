@@ -13,3 +13,10 @@
 * Slideshow 
 * Video controls etc
 * Column layout
+
+# Use cases
+* Front end UI elements implementation
+* Basic animations when 
+   *Loading screen
+   *Scrolling
+   *Loading images and videos
