@@ -23,3 +23,4 @@
 *Get and post requests
 *File upload
 *Next page indication
+*Image carousel
