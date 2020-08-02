@@ -21,4 +21,5 @@
    *Scrolling
    *Loading images and videos
 *Get and post requests
-*
+*File upload
+*Next page indication
