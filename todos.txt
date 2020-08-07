@@ -7,3 +7,7 @@
     -Avatars
     -Template cards
     -Scrollable cards
+4.User event driven animation effects 
+    -scroll
+    -hover
+    -click
