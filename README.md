@@ -13,6 +13,7 @@
 * Slideshow 
 * Video controls etc
 * Column layout
+* Navbars
 
 # Use cases
 * Front end UI elements implementation
