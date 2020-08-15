@@ -6,6 +6,7 @@
 * Image loading animations
 * Page loading animations
 * Navbar and sidenav reveal and animations
+* Scroll animations
 
 # Elements
 * Cards
