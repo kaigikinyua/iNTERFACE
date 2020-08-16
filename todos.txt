@@ -20,3 +20,4 @@
     -Sidenav
     -Topnav
     -Bottomnav
+8.Slideshows
