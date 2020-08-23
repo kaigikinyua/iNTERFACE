@@ -5,6 +5,7 @@
 # Animations
 * Image loading animations
 * Page loading animations
+* Hamburger menu icon animations
 * Navbar and sidenav reveal and animations
 * Scroll animations
 
@@ -19,7 +20,7 @@
 # Use cases
 * Front end UI elements implementation
 * Basic animations when 
-   *Loading screen
+   *Loading page
    *Scrolling
    *Loading images and videos
 * Get and post requests
