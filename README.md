@@ -16,6 +16,7 @@
 * Video controls etc
 * Column layout
 * Navbars
+* Bottom navigation bar for phone
 
 # Use cases
 * Front end UI elements implementation
