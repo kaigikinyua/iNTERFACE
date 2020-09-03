@@ -7,3 +7,17 @@
     -Avatars
     -Template cards
     -Scrollable cards
+4.User event driven animation effects 
+    -scroll
+    -hover
+    -click
+5.Forms and inputs
+6.Themes
+    -Light
+    -Dark
+    -Solarized
+7.Navigation 
+    -Sidenav
+    -Topnav
+    -Bottomnav
+8.Slideshows
