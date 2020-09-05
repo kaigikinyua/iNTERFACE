@@ -1,4 +1,5 @@
 export {Video};
+//main video class
 class Video{
     videoSrc="";videoClass="";videoloader="";videoControls=true
     //dom 
@@ -46,6 +47,7 @@ class Video{
     }
 }
 
+//check if elements exists and create new ones
 class HtmlElements{
     constructor(){}
     static nonNull(param){
