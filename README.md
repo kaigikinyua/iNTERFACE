@@ -28,6 +28,7 @@
 * File upload
 * Next page indication
 * Image carousel
+* Image gallery
 
 
 And many more to come
