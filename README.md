@@ -30,5 +30,9 @@
 * Image carousel
 * Image gallery
 
+# Languages and frameworks
+* 1.JavaScript
+* 2.Scss
+* 3.html5 and css3
 
 And many more to come
