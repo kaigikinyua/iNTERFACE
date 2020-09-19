@@ -17,6 +17,7 @@
 * Column layout
 * Navbars
 * Bottom navigation bar for phone
+* Jumbotron
 
 # Use cases
 * Front end UI elements implementation
