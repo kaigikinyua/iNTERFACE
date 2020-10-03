@@ -8,6 +8,7 @@
 * Hamburger menu icon animations
 * Navbar and sidenav reveal and animations
 * Scroll animations
+* Polygon hover animations
 
 # Elements
 * Cards
