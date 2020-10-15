@@ -1,7 +1,7 @@
 # iNTERFACE
-
 ### Simple lightweight web ui framework for beginners
-:nerd_face:
+:nerd_face: :relieved:
+
 # Animations
    * Image loading animations
    * Page loading animations
