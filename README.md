@@ -11,7 +11,7 @@
    * Polygon hover animations
 
 # Elements
-   * Cards
+   * Cards(glass morphisim and generic cards)
    * Landing pages
    * Slideshow 
    * Video controls etc
@@ -19,6 +19,7 @@
    * Navbars
    * Bottom navigation bar for phone
    * Jumbotron
+
 
 # Use cases
    * Front end UI elements implementation
