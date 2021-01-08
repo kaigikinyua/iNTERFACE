@@ -33,7 +33,7 @@
    * Image gallery
 
 # Languages and frameworks
-   * 1.JavaScript
+   * 1.JavaScript/typescript
    * 2.Scss
    * 3.html5 and css3
    * 4.Python3 for autofilter reductions
