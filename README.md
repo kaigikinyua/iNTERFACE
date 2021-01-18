@@ -18,6 +18,7 @@
    * Navbars
    * Bottom navigation bar for phone
    * Jumbotron
+   * Notifications
 
 
 # Use cases
