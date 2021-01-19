@@ -8,7 +8,8 @@
    * Navbar and sidenav reveal and animations
    * Scroll animations
    * Polygon hover animations
-
+   * 3d flip cards
+   * Clip path reveal animations
 # Elements
    * Cards(glass morphisim and generic cards)
    * Landing pages
