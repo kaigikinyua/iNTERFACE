@@ -7,6 +7,7 @@
    * Hamburger menu icon animations
    * Navbar and sidenav reveal and animations
    * Scroll animations
+   * Topnav reveal and hide
    * Polygon hover animations
    * 3d flip cards
    * Clip path reveal animations
