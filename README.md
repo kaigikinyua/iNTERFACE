@@ -22,6 +22,8 @@
    * Jumbotron
    * Notifications
 
+# Minify
+   * Minify CSS into one file
 
 # Use cases
    * Front end UI elements implementation
