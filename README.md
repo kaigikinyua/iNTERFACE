@@ -23,7 +23,7 @@
    * Notifications
 
 # Minify
-   * Minify CSS into one file
+   * Minify CSS into one file for each webpage according to used classes.
 
 # Use cases
    * Front end UI elements implementation
