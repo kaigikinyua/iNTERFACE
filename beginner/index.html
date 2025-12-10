@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>iNTERFACE</title>
+	<link rel="stylesheet" href="./css/interface.css">
+	<script defer type="module" src="./js/UI/Videos.js"></script>
+</head>
+<body>
+	<!--topnav-->
+	<nav class="topnav light">
+		<div class="barner">
+			<h3 class="title">iNTERFACE</h3>
+		</div>
+		<div class="hor">
+			<ul class="links">
+				<a href="#"><li>Home</li></a>
+				<a href="#"><li>About</li></a>
+				<a href="#"><li>Contacts</li></a>
+			</ul>
+		</div>
+	</nav>
+
+	<!--Sidenav-->
+	<nav class="sidenav light" id="sidenav">
+		<div class="barner">
+			<h3 class="title">iNTERFACE</h3>
+		</div>
+		<div class="links">
+			<ul class="ver">
+				<a href="#"><li>Home</li></a>
+				<a href="#"><li>About</li></a>
+				<a href="#"><li>Contacts</li></a>
+			</ul>
+		</div>
+		<button class="cancel">X</button>
+	</nav>
+
+	<section class="fullscreen">
+		<div class="container middle">
+			<h3 class="title">Containers</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, accusamus illo ad hic et qui vel enim? Libero, nemo dicta, quisquam voluptates delectus sit deserunt laborum, voluptate nobis iste sunt!</p>
+		</div>
+		<div class="card-simple">
+			<h3 class="card-title"></h3>
+		</div>
+	</section>
+
+	<section class="fullscreen" id="videos_parent">
+		<script type="module">
+			import {Video} from "./js/UI/Videos.js";
+			var videos=["bus.mp4","deadpool.mp4","todolist.mp4"];
+			videos.forEach(video=>{
+				var v=new Video({src:"./sampledata/videos/"+video,controls:true});
+				v.appendVideo("videos_parent")
+				v.videoDimensions({height:100,width:"auto"})
+			})
+		</script>
+	</section>
+        <!loading animation-->
+</body>
+</html>

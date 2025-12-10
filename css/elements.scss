@@ -1,9 +1,0 @@
-@import './variables.scss';
-@import './mixins.scss';
-
-.container_center{
-    position: relative;
-    @include middle;
-    max-width: $align;
-    padding:10px;
-}

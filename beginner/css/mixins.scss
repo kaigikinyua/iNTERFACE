@@ -1,0 +1,24 @@
+//alignment
+    @mixin middle {
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+    }
+    @mixin center_h{
+        left:50%;
+        transform: translateX(-50%);
+    }
+    @mixin center_v{
+        top:50%;
+        transform: translateY(-50%);
+    }
+
+//containers
+    //diffenrent types
+        //cards
+            //default card
+            @mixin card_default{
+                padding:10px;
+                background:white;
+                box-shadow: 1px 1px 10px 10px rgba(10,10,10,0.5);
+            }
